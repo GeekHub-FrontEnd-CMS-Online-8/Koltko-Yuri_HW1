@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: white;
+}
+
+nav {
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    list-style: none;
+}
+nav li {
+    padding: 10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+nav a {
+    
+    text-decoration: none;
+    color: white;
+}
+
+/*Контент*/
+
+.per1 {
+    text-align: center;
+    
+}
+
+.per1 img {
+    height: 100px;
+    
+}
+
+.per1__img {
+    padding: 0 50px;
+	display: inline-block;
+    
+}
+
+.blok2 {
+	background: url("img/kyle-johnson-383916-unsplash_1.jpg") no-repeat center;
+    background-size: contain;
+    height: 500px;
+}
+
+.text__1{
+    text-align: center;
+    color: #2c6a9b;
+    text-transform: uppercase;
+}
+
+.blok2 p {
+    text-align: center;
+    font-size: 37px;
+    color: white;
+    padding: 100px;
+    margin: 0;
+}
+
+
+/*Обо мне*/
+
+/*
+.about_me li {
+    padding: 10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+}*/
+
+.about_me {
+    background: #000 url("img/jon-tyson-589851-unsplash.jpg") no-repeat center;
+    background-size: cover;
+    height: 500px;
+   }
+
+.about_me p {
+    font-size: 30px;
+    position: absolute;
+    color: white;
+    top: 200px;
+	right: 200px;
+	width: 300px;
+}
+
+.about_me span {
+    font-size: 15px;
+    position: absolute;
+    color: #9fa09f;
+    top: 404px;
+    right: 200px;
+}
